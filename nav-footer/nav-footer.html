@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="nav-footer.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header class="blue-bac">
+
+
+
+        <div class="container d-none d-md-block">
+            <div class="top-header d-flex justify-content-between align-items-center pt-2 pb-2">
+                <div class="main-text text-white">
+                    مرحبا بكم في متجر روكفلر للتجارة الالكترونية.
+                </div>
+                <div class="d-flex gap-3">
+                    <div class="main-text text-white d-flex gap-3 border-start ps-3">
+                        <p> تابعنا على:</p>
+                        <a href="" class="text-white"><i class="fa-brands fa-twitter mt-1"></i></a>
+                        <a href="" class="text-white"><i class="fa-brands fa-facebook mt-1"></i></a>
+                        <a href="" class="text-white"><i class="fa-brands fa-youtube mt-1"></i></a>
+                        <a href="" class="text-white"><i class="fa-brands fa-instagram mt-1"></i></a>
+                    </div>
+                    <div class="lang-money d-flex gap-3">
+                        <div class="lang position-relative">
+                            <div class="btn-lang text-white pointer">العربية ⌵</div>
+                            <div
+                                class="drop-lang-content d-none z-1  white-bac rounded-2 position-absolute mt-2 overflow-hidden">
+                                <div
+                                    class="dropdown1 active-dropdown1 d-flex gap-4 drop-down1-hover pt-2 pb-2 ps-3 pe-3">
+                                    <img src="../images/flags/saudi-arabia.webp" class="img-flag" alt="">
+                                    <span class="lh-lg">العربية</span> <i class="fa-solid fa-check lh-lg "></i>
+                                </div>
+                                <div class=" dropdown1 d-flex gap-4 drop-down1-hover pt-2 pb-2 ps-3 pe-3"><img
+                                        src="../images/flags/america-flag.avif" class="img-flag" alt="">
+                                    <span class="lh-lg">English</span> <i class="fa-solid fa-check lh-lg "></i>
+                                </div>
+                                <div class="dropdown1 d-flex gap-4 drop-down1-hover pt-2 pb-2 ps-3 pe-3"> <img
+                                        src="../images/flags/russian-flag.png" class="img-flag" alt="">
+                                    <span class="lh-base">Russian</span> <i class="fa-solid fa-check lh-lg "></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="money position-relative">
+                            <div class="btn-money pointer text-white">USD ⌵</div>
+                            <div
+                                class="drop-money-content d-none z-1 white-bac rounded-2 position-absolute mt-2 overflow-hidden">
+                                <div
+                                    class="active-dropdown2 drop-down2-hover dropdown2 d-flex align-items-center gap-4 pt-2 pb-2 ps-3 pe-3 m-0">
+                                    <p class="">USD</p> <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div
+                                    class="d-flex dropdown2 drop-down2-hover gap-4 pt-2 pb-2 ps-3 pe-3 m-0 align-items-center">
+                                    <p class="">EUR</p> <i class="fa-solid fa-check"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="bottom-header pt-2 pb-2 border-top border-1 d-none d-md-block">
+            <div class="container d-flex justify-content-between">
+                <div class="logo">
+                    <a href="../index.html"><img src="../images/logo/logo.png" alt=""></a>
+                </div>
+                <div class="header-search position-relative rounded-2 overflow-hidden d-none d-md-block">
+                    <input type="text" class="w-100 h-100 border-0 ps-2 pe-5" placeholder="بحث...">
+                    <i class="fa-solid fa-magnifying-glass position-absolute top-50 end-0 translate-middle-y me-3 text-secondary"
+                        style="z-index: 10; cursor: pointer;"></i>
+                </div>
+                <div class="d-flex align-items-center gap-3 title-text2 text-white">
+                    <div class="shop-cart position-relative">
+                        <i class="fa-solid fa-cart-shopping pointer cartBottom hover-icon"></i>
+                        <div class="card shop-body p-4 position-absolute cartContent d-none">
+                            <h3 class="text-end mb-2 mt-2 title-text2">سلة التسوق <span>(2)</span></h3>
+                            <hr>
+
+                            <div class="items">
+                                <div class="item1 d-flex align-items-center justify-content-between gap-3 hover-item">
+                                    <div class="">
+                                        <img src="../images/shop dropdown/1.jpg" alt="">
+                                    </div>
+                                    <div class="main-text">
+                                        <p class="">كاميرة كانون EOS 1500D DSLR + عدسات 18-55 مم</p>
+                                        <p class="">1 * <span class="blue-text">$1,500</span></p>
+                                    </div>
+                                    <div class="">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="item1 mt-3 d-flex align-items-center justify-content-between gap-3 hover-item">
+                                    <div class="">
+                                        <img src="../images/shop dropdown/1.jpg" alt="">
+                                    </div>
+                                    <div class="main-text">
+                                        <p class="">كاميرة كانون EOS 1500D DSLR + عدسات 18-55 مم</p>
+                                        <p class="">2 * <span class="blue-text">$269</span></p>
+                                    </div>
+                                    <div class="">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="main-text d-flex justify-content-between">
+                                <p class="">المجموع الكلي</p>
+                                <p class="blue-text">$2038,00</p>
+                            </div>
+                            <button type="submit" class="btn btn-orange w-100 mt-3 text-btn">
+                                ادفع الان
+                            </button>
+
+                            <button class="btn btn-outline-orange w-100 text-btn mt-3"
+                                style="letter-spacing: 1px; font-weight: 600;">
+                                عرض السلة
+                            </button>
+                        </div>
+                    </div>
+                    <div class="favorite">
+                        <i class="fa-solid fa-heart pointer hover-icon"></i>
+                    </div>
+                    <div class="sign-in position-relative signInBottom">
+                        <i class="fa-solid fa-arrow-right-to-bracket pointer hover-icon"></i>
+                        <div class="card d-none shop-body p-4 position-absolute signInContent">
+                            <h3 class="text-center mb-4 mt-2 title-text2">تسحيل الدخول الى حسابك</h3>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="email" class="main-text">عنوان البريد الالكتروني</label>
+                                    <input type="email" class="form-control p-2 mt-1" id="email">
+                                </div>
+
+                                <div class="mb-3">
+                                    <div class="d-flex justify-content-between">
+                                        <label for="password" class="main-text">كلمة المرور</label>
+                                        <a href="../forget-password/forget-password.html" class="forgot-link">هل نسيت كلمة السر؟</a>
+                                    </div>
+                                    <div class="position-relative mt-1">
+                                        <input id="password" type="password" class="form-control p-2 pe-5"
+                                            id="password">
+                                        <i id="showPassword"
+                                            class="fa-solid fa-eye position-absolute top-50 translate-middle-y pe-2 pointer"></i>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-orange w-100 mt-3 text-btn">
+                                    تسجيل الدخول
+                                </button>
+                            </form>
+
+                            <div class="separator main-text">ليس لديك حساب؟</div>
+
+                            <button class="btn btn-outline-orange w-100 text-btn"
+                                style="letter-spacing: 1px; font-weight: 600;">
+                               <a href="../sign-in/signin.html" style="color: #FA8232;"> انشاء حساب</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+
+
+
+
+    <nav class=" py-2 main-text d-none d-md-block" style="box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08)">
+
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex gap-5 align-items-center ">
+
+                <div class="dropdown" dir="rtl">
+                    <button class=" dropdown-toggle btn_categoy_nav gray-text text-center py-3 px-3 rounded-1 border-0"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span>جميع الفئات</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-end py-2" href="#">الكمبيوترات</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#"> ملحقات الكمبيوتر</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#"> هاتف ذكي</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">سماعة راس</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">ملحقات الهاتف المحمول</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">جهاز العاب</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">كاميرا وتصوير</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">اجهزة تلفزيون واجهزة منزلية</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#"> ساعات وملحقات </a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">تكنولوجيا محمولة</a></li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <a href="../shop-section/shop_page.html"
+                        class="d-flex align-items-center gap-1 gray-text text-center nav_link  py-3 px-3 rounded-1">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        <small>المتجر </small>
+                    </a>
+                </div>
+
+                <div class="">
+                    <a href="../fqr/freguently.html"
+                        class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
+                       <i class="fa-solid fa-circle-question"></i>
+                        <small>الاسألة المتكررة</small>
+                    </a>
+
+                </div>
+
+                <div class="">
+                    <a href="../blog-list/blog-list.html"
+                        class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
+                       <i class="fa-solid fa-blog"></i>
+                        <small>  المقالات</small>
+                    </a>
+
+                </div>
+
+                <div class="">
+                    <a href="../customer-support/customer-support.html"
+                        class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
+                        <i class="fa-solid fa-headphones d-block"></i>
+                        <small>دعم العملاء</small>
+                    </a>
+
+                </div>
+
+                <div class="">
+                    <a href="../about-us/about-us.html"
+                        class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <small>  من نحن</small>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-2  py-3 px-3 rounded-1 d-none d-lg-block" dir="ltr">
+                <i class="fa-solid fa-phone"></i>
+                <span>+1-202-555-0104</span>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+
+    <nav class="navbar navbar-expand-lg blue-bac d-md-none ">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="../images/logo/logo.png" alt=""></a>
+            </div>
+            <div class="bar_navbar title-text2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            href="../shop-section/shop_page.html">
+                            <i class="fa-solid fa-cart-arrow-down"></i>
+                        <small>المتجر </small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            href="../fqr/freguently.html">
+                            <i class="fa-solid fa-circle-question"></i>
+                        <small>الاسألة المتكررة</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            aria-disabled="true" href="../blog-list/blog-list.html">
+                            <i class="fa-solid fa-blog"></i>
+                        <small>  المقالات</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            aria-disabled="true" href="../customer-support/customer-support.html">
+                            <i class="fa-solid fa-headphones d-block"></i>
+                        <small>دعم العملاء</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            aria-disabled="true" href="../about-us/about-us.html">
+                            <i class="fa-solid fa-circle-info"></i>
+                        <small>  من نحن</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            aria-disabled="true" href="../sign-in/signin.html">
+                            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                            <small>تسجيل الدخول </small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            aria-disabled="true">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+1-202-555-0104</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <footer class="black-bac">
+        <div class="container ">
+            <div class="row text-white py-5 main-text ">
+                <div class="col-12 col-md-6 col-lg  ">
+                    <div class="logo footer_logo">
+                        <a href=""><img src="../images/logo/logo.png" alt=""></a>
+                    </div>
+                    <div class="gray-text d-flex flex-column gap-2 mt-2">
+                        <span>دعم العملاء</span>
+                        <span class="text-white">(629) 555-0129</span>
+                        <span>4517 شارع واشنطن, مدينة مانشستر,<br>ولاية كنتاكي, الولايات المتحدة 39495</span>
+                        <span class=""><a href="" class="text-white">info@gmail.com</a></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg    d-flex flex-column gap-2 mt-4 mt-md-2 mt-lg-0">
+                    <p class="title-text2 text-white">افضل الفئات</p>
+                    <span class="mt-2"><a href="" class="gray-text link_footer">كمبيوترات</a></span>
+                    <span><a href="" class="gray-text link_footer">هاتف ذكي</a></span>
+                    <span><a href="" class="gray-text link_footer">سماعة راس</a></span>
+                    <p class=" my-2 yellow-text">اكسسوارات</p>
+                    <span><a href="" class="gray-text link_footer">كاميرة وتصوير</a></span>
+                        <span><a href="" class="gray-text link_footer">تلفزيون منزلي</a></span>
+                        <span class=""><a href="" class="d-flex align-items-center gap-2 yellow-text">تصفح جميع المنتجات<i class="fa-solid fa-arrow-left"></i></a></i>
+                        </span>
+                </div>
+                <div class="col-12 col-md-6 col-lg   d-flex flex-column gap-2 mt-4 mt-md-3 mt-lg-0">
+                    <p class="title-text2 text-white">روابط سريعة</p>
+                    <span class="mt-2"><a href="../shop-section/shop_page.html" class="gray-text link_footer"> المتجر</a></span>
+                    <span><a href="../fqr/freguently.html" class="gray-text link_footer"> الاسالة المتكررة</a></span>
+                    <span><a href="" class="gray-text link_footer">المفضلة</a></span>
+                    <span><a href="" class="gray-text link_footer">مقارنة</a></span>
+                    <span><a href="" class="gray-text link_footer">تتبع الطلب</a></span>
+                    <span><a href="../customer-support/customer-support.html" class="gray-text link_footer">دعم العملاء</a></span>
+                    <span><a href="../about-us/about-us.html" class="gray-text link_footer">من نحن</a></span>
+                </div>
+                <div class="col-12 col-md-6 col-lg   mt-4 mt-md-3 mt-lg-0">
+                    <p class="title-text2">حمل التطبيق من </p>
+                    <div class="d-flex gap-3 align-items-center mt-4 p-2 rounded-1 app_google_store">
+                        <a href=""></a>
+                        <i class="fa-brands fa-google-play "></i>
+                        <p class="">احصل عليه الان <br><span>Google Play</span></p>
+                    </div>
+                    <div class="d-flex gap-3 align-items-center mt-4 p-2 rounded-1 app_google_store">
+                        <a href=""></a>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <p class="">احصل عليه الان <br><span>App Store </span></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg   gray-text mt-4 mt-md-3 mt-lg-0">
+                    <p class="title-text2 text-white">الاكثر بحثا</p>
+                    <div class="d-flex flex-wrap mt-4 gap-3">
+                        <a class="d-block  gray-text search_footer" href="">لعبة</a>
+                        <a class="d-block  gray-text search_footer" href="">ايفون</a>
+                        <a class="d-block  gray-text search_footer" href="">لابتوب اسوس</a>
+                        <a class="d-block  gray-text search_footer" href="">ماكبوك</a>
+                        <a class="d-block  gray-text search_footer" href="">شاشة</a>
+                        <a class="d-block  gray-text search_footer" href="">سامسونغ</a>
+                        <a class="d-block  gray-text search_footer" href="">جهاز لوحي</a>
+                        <a class="d-block  gray-text search_footer" href="">مكريفون</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gray-text text-center border-top py-3">
+            قالب روكفلر © 2026 بواسطة ركفلر
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="nav-footer.js"></script>
+
+</body>
+
+</html>

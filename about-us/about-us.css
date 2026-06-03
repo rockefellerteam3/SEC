@@ -1,0 +1,375 @@
+
+
+.about-text-wrapper {
+     width: 100%;
+     max-width: 75% !important;
+
+ }
+ /* على الجوال نرجعه 100% */
+ @media (max-width: 767px) {
+     .about-text-wrapper {
+         max-width: 100%;
+         margin-right: 20px;
+         text-align: right;
+     }
+ }
+
+ .about-content {
+     font-size: 21px;
+ }
+
+ .section-label {
+     display: inline-block;
+     color: white;
+     padding: 8px 20px;
+     border-radius: 5px;
+     font-size: 14px;
+     font-weight: 600;
+     margin-bottom: 20px;
+ }
+
+ .list-unstyled {
+     margin-right: 0;
+     padding: 0;
+
+ }
+
+ .list-unstyled p {
+     font-size: 20px;
+ }
+
+ .feature-list li {
+     font-size: 16px;
+     display: flex;
+ }
+
+ .feature-list i {
+     font-size: 18px;
+     margin-left: 10px;
+ }
+
+ .about-image {
+     width: 100%;
+     height: auto;
+     border-radius: 10px;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+ }
+
+ @media (min-width: 992px) {
+     .about-image {
+         min-height: 400px;
+         object-fit: cover;
+     }
+ }
+
+ /* end القسم الرئيسي (Hero Section) */
+
+
+
+ /* <!-- start team-card-section --> */
+
+
+ .team-section {
+     background-color: white;
+     padding-top: 60px;
+     padding-bottom: 60px;
+ }
+
+
+
+ .team-card {
+     background: white;
+     border-radius: 8px;
+     border: 1px solid rgba(0, 0, 0, 0.175);
+     padding: 16px;
+     display: flex;
+     align-items: center;
+     gap: 14px;
+     height: 100%;
+     transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease;
+ }
+
+ .team-card:hover {
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.269);
+ }
+
+ .team-img {
+     width: 56px;
+     height: 56px;
+     border-radius: 50%;
+     object-fit: cover;
+     flex-shrink: 0;
+ }
+
+ .team-info {
+     flex: 1;
+
+ }
+
+ .team-name {
+     font-size: 20px;
+     font-weight: 600;
+     color: #2DA5F3;
+     margin-bottom: 4px;
+     line-height: 1.3;
+ }
+
+ .team-role {
+     font-size: 18px;
+     margin: 0;
+     color: #5F6C72;
+     line-height: 1.4;
+ }
+
+ /* تحسين للجوال */
+ @media (max-width: 767px) {
+     .team-section {
+         padding-top: 40px;
+         padding-bottom: 40px;
+     }
+
+     .team-card {
+         padding: 12px;
+         gap: 10px;
+     }
+
+     .team-img {
+         width: 48px;
+         height: 48px;
+     }
+ }
+
+ /* <!-- end team-card-section --> */
+
+
+
+ /* <!-- start about-image-section --> */
+
+
+ .trust-section {
+     margin-top: 40px;
+     margin-bottom: 30px;
+     background-image: url('../images/Technical-Support.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     min-height: 300px;
+     position: relative;
+     display: flex;
+     align-items: center;
+ }
+
+
+ .trust-section::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     right: 0;
+     /* يبدأ من اليمين */
+     left: 0;
+     bottom: 0;
+     background: linear-gradient(to left, rgba(90, 86, 86, 0.273) 20%, rgba(117, 112, 112, 0.344) 60%, rgba(255, 255, 255, 0.188) 100%);
+     z-index: 1;
+ }
+
+ .trust-content {
+     position: relative;
+     z-index: 1;
+     padding-top: 15px;
+     padding: 30px 0;
+ }
+
+ .trust-content-p {
+     color: white;
+     font-size: 20px;
+ }
+
+ .trust-btn {
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     width: 50px;
+     height: 50px;
+     background-color: #FA8232;
+     color: #FFFFFF;
+     border-radius: 50%;
+     font-size: 20px;
+     text-decoration: none;
+     transition: all 0.3s ease;
+     box-shadow: 0 5px 15px rgba(250, 130, 50, 0.4);
+ }
+
+ .trust-btn:hover {
+     background-color: #e56f2a;
+     transform: translateX(-5px);
+     box-shadow: 0 8px 20px rgba(250, 130, 50, 0.6);
+ }
+
+ @media (max-width: 767px) {
+     .trust-section {
+         min-height: 350px;
+         background-position: left center;
+         padding: 20px;
+     }
+
+     .trust-section::before {
+         background: linear-gradient(to left, rgba(40, 39, 39, 0.571) 40%, rgba(36, 35, 35, 0.632) 100%);
+     }
+
+     .trust-btn {
+         margin: auto;
+         display: flex;
+     }
+ }
+
+ /* <!-- end about-image-section --> */
+
+
+
+ /* <!-- start about-products-section--> */
+
+ .products-section {
+     background-color: #FFFFFF;
+     padding-top: 60px;
+     padding-bottom: 60px;
+ }
+
+ .product-item {
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     padding: 15px;
+     margin-bottom: 15px;
+     background-color: #FFFFFF;
+     border: 1px solid rgba(0, 0, 0, 0.175);
+     border-radius: 8px;
+     transition: all 0.3s ease;
+ }
+
+ .product-item:hover {
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.269);
+ }
+
+
+ .product-img-wrapper {
+     flex-shrink: 0;
+     width: 80px;
+     height: 80px;
+     background-color: #F8F9FA;
+     border-radius: 8px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     overflow: hidden;
+ }
+
+ .product-img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transition: transform 0.3s ease;
+ }
+
+ .product-info {
+     flex: 1;
+     min-width: 0;
+ }
+
+
+ @media (min-width: 768px) and (max-width: 991px) {
+     .col-md-6 {
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+ }
+
+
+
+ /* <!-- end about-products-section --> */
+
+
+
+ /* <!-- start about-newsletter-section --> */
+
+
+ .newsletter-section {
+     background-color: #1B6392;
+     padding: 60px 0;
+ }
+
+ .newsletter-box {
+     background: #FFFFFF;
+     border-radius: 8px;
+     margin-top: 10px;
+     overflow: hidden;
+     display: inline-flex;
+     max-width: 520px;
+     width: 100%;
+     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+ }
+
+ .newsletter-title {
+     font-size: 30px;
+     padding-bottom: 12px;
+ }
+
+ .newsletter-input {
+     flex: 1;
+     border: none;
+     padding: 14px 20px;
+     font-size: 15px;
+     outline: none;
+     background: transparent;
+ }
+
+ .newsletter-submit {
+     border: none;
+     border-radius: 0;
+     padding: 14px 28px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ .newsletter-submit:hover {
+     background-color: #e56f2a;
+ }
+
+ .brand-logos {
+     opacity: 0.6;
+     transition: opacity 0.3s ease;
+ }
+
+ .brand-logos:hover {
+     opacity: 1;
+ }
+
+ .brand-logo {
+     color: #FFFFFF;
+     font-size: 14px;
+     font-weight: 600;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+ }
+
+ @media (max-width: 767px) {
+     .newsletter-section {
+         padding: 40px 0;
+     }
+
+     .newsletter-box {
+         flex-direction: column;
+         border-radius: 8px;
+     }
+
+     .newsletter-input {
+         border-bottom: 1px solid #eee;
+         text-align: center;
+     }
+
+     .newsletter-submit {
+         border-radius: 0 0 8px 8px;
+         width: 100%;
+     }
+ }
+
+ /* <!-- end about-newsletter-section --> */

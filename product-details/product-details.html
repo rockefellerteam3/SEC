@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MacBook Pro - Product Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="product-details.css">
+    <link rel="stylesheet" href="../nav-footer/nav-footer.css">
+</head>
+
+<body>
+
+
+
+
+    <header class="blue-bac">
+
+
+
+        <div class="container d-none d-md-block">
+            <div class="top-header d-flex justify-content-between align-items-center pt-2 pb-2">
+                <div class="main-text text-white">
+                    مرحبا بكم في متجر روكفلر للتجارة الالكترونية.
+                </div>
+                <div class="d-flex gap-3">
+                    <div class="main-text text-white d-flex gap-3 border-start ps-3">
+                        <p> تابعنا على:</p>
+                        <a href="" class="text-white"><i class="fa-brands fa-twitter mt-1"></i></a>
+                        <a href="" class="text-white"><i class="fa-brands fa-facebook mt-1"></i></a>
+                        <a href="" class="text-white"><i class="fa-brands fa-youtube mt-1"></i></a>
+                        <a href="" class="text-white"><i class="fa-brands fa-instagram mt-1"></i></a>
+                    </div>
+                    <div class="lang-money d-flex gap-3">
+                        <div class="lang position-relative">
+                            <div class="btn-lang text-white pointer">العربية ⌵</div>
+                            <div
+                                class="drop-lang-content d-none z-1  white-bac rounded-2 position-absolute mt-2 overflow-hidden">
+                                <div
+                                    class="dropdown1 active-dropdown1 d-flex gap-4 drop-down1-hover pt-2 pb-2 ps-3 pe-3">
+                                    <img src="../images/flags/saudi-arabia.webp" class="img-flag" alt="">
+                                    <span class="lh-lg">العربية</span> <i class="fa-solid fa-check lh-lg "></i>
+                                </div>
+                                <div class=" dropdown1 d-flex gap-4 drop-down1-hover pt-2 pb-2 ps-3 pe-3"><img
+                                        src="../images/flags/america-flag.avif" class="img-flag" alt="">
+                                    <span class="lh-lg">English</span> <i class="fa-solid fa-check lh-lg "></i>
+                                </div>
+                                <div class="dropdown1 d-flex gap-4 drop-down1-hover pt-2 pb-2 ps-3 pe-3"> <img
+                                        src="../images/flags/russian-flag.png" class="img-flag" alt="">
+                                    <span class="lh-base">Russian</span> <i class="fa-solid fa-check lh-lg "></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="money position-relative">
+                            <div class="btn-money pointer text-white">USD ⌵</div>
+                            <div
+                                class="drop-money-content d-none z-1 white-bac rounded-2 position-absolute mt-2 overflow-hidden">
+                                <div
+                                    class="active-dropdown2 drop-down2-hover dropdown2 d-flex align-items-center gap-4 pt-2 pb-2 ps-3 pe-3 m-0">
+                                    <p class="">USD</p> <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div
+                                    class="d-flex dropdown2 drop-down2-hover gap-4 pt-2 pb-2 ps-3 pe-3 m-0 align-items-center">
+                                    <p class="">EUR</p> <i class="fa-solid fa-check"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="bottom-header pt-2 pb-2 border-top border-1 d-none d-md-block">
+            <div class="container d-flex justify-content-between">
+                <div class="logo">
+                    <a href="../index.html"><img src="../images/logo/logo.png" alt=""></a>
+                </div>
+                <div class="header-search position-relative rounded-2 overflow-hidden d-none d-md-block">
+                    <input type="text" class="w-100 h-100 border-0 ps-2 pe-5" placeholder="بحث...">
+                    <i class="fa-solid fa-magnifying-glass position-absolute top-50 end-0 translate-middle-y me-3 text-secondary"
+                        style="z-index: 10; cursor: pointer;"></i>
+                </div>
+                <div class="d-flex align-items-center gap-3 title-text2 text-white">
+                    <div class="shop-cart position-relative">
+                        <i class="fa-solid fa-cart-shopping pointer cartBottom hover-icon"></i>
+                        <div class="card shop-body p-4 position-absolute cartContent d-none">
+                            <h3 class="text-end mb-2 mt-2 title-text2">سلة التسوق <span>(2)</span></h3>
+                            <hr>
+
+                            <div class="items">
+                                <div class="item1 d-flex align-items-center justify-content-between gap-3 hover-item">
+                                    <div class="">
+                                        <img src="../images/shop dropdown/1.jpg" alt="">
+                                    </div>
+                                    <div class="main-text">
+                                        <p class="">كاميرة كانون EOS 1500D DSLR + عدسات 18-55 مم</p>
+                                        <p class="">1 * <span class="blue-text">$1,500</span></p>
+                                    </div>
+                                    <div class="">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="item1 mt-3 d-flex align-items-center justify-content-between gap-3 hover-item">
+                                    <div class="">
+                                        <img src="../images/shop dropdown/1.jpg" alt="">
+                                    </div>
+                                    <div class="main-text">
+                                        <p class="">كاميرة كانون EOS 1500D DSLR + عدسات 18-55 مم</p>
+                                        <p class="">2 * <span class="blue-text">$269</span></p>
+                                    </div>
+                                    <div class="">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="main-text d-flex justify-content-between">
+                                <p class="">المجموع الكلي</p>
+                                <p class="blue-text">$2038,00</p>
+                            </div>
+                            <button type="submit" class="btn btn-orange w-100 mt-3 text-btn">
+                                ادفع الان
+                            </button>
+
+                            <button class="btn btn-outline-orange w-100 text-btn mt-3"
+                                style="letter-spacing: 1px; font-weight: 600;">
+                                عرض السلة
+                            </button>
+                        </div>
+                    </div>
+                    <div class="favorite">
+                        <i class="fa-solid fa-heart pointer hover-icon"></i>
+                    </div>
+                    <div class="sign-in position-relative signInBottom">
+                        <i class="fa-solid fa-arrow-right-to-bracket pointer hover-icon"></i>
+                        <div class="card d-none shop-body p-4 position-absolute signInContent">
+                            <h3 class="text-center mb-4 mt-2 title-text2">تسحيل الدخول الى حسابك</h3>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="email" class="main-text">عنوان البريد الالكتروني</label>
+                                    <input type="email" class="form-control p-2 mt-1" id="email">
+                                </div>
+
+                                <div class="mb-3">
+                                    <div class="d-flex justify-content-between">
+                                        <label for="password" class="main-text">كلمة المرور</label>
+                                        <a href="../forget-password/forget-password.html" class="forgot-link">هل نسيت
+                                            كلمة السر؟</a>
+                                    </div>
+                                    <div class="position-relative mt-1">
+                                        <input id="password" type="password" class="form-control p-2 pe-5"
+                                            id="password">
+                                        <i id="showPassword"
+                                            class="fa-solid fa-eye position-absolute top-50 translate-middle-y pe-2 pointer"></i>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-orange w-100 mt-3 text-btn">
+                                    تسجيل الدخول
+                                </button>
+                            </form>
+
+                            <div class="separator main-text">ليس لديك حساب؟</div>
+
+                            <button class="btn btn-outline-orange w-100 text-btn"
+                                style="letter-spacing: 1px; font-weight: 600;">
+                                <a href="../sign-in/signin.html" style="color: #FA8232;"> انشاء حساب</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+
+
+
+
+    <nav class=" py-2 main-text d-none d-md-block" style="box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08)">
+
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex gap-5 align-items-center ">
+
+                <div class="dropdown" dir="rtl">
+                    <button class=" dropdown-toggle btn_categoy_nav gray-text text-center py-3 px-3 rounded-1 border-0"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span>جميع الفئات</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-end py-2" href="#">الكمبيوترات</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#"> ملحقات الكمبيوتر</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#"> هاتف ذكي</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">سماعة راس</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">ملحقات الهاتف المحمول</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">جهاز العاب</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">كاميرا وتصوير</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">اجهزة تلفزيون واجهزة منزلية</a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#"> ساعات وملحقات </a></li>
+                        <li><a class="dropdown-item text-end py-2" href="#">تكنولوجيا محمولة</a></li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <a href="../shop-section/shop_page.html"
+                        class="d-flex align-items-center gap-1 gray-text text-center nav_link  py-3 px-3 rounded-1">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        <small>المتجر </small>
+                    </a>
+                </div>
+
+                <div class="">
+                    <a href="../fqr/freguently.html"
+                        class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
+                        <i class="fa-solid fa-circle-question"></i>
+                        <small>الاسألة المتكررة</small>
+                    </a>
+
+                </div>
+
+                <div class="">
+                    <a href="../blog-list/blog-list.html"
+                        class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
+                        <i class="fa-solid fa-blog"></i>
+                        <small> المقالات</small>
+                    </a>
+
+                </div>
+
+                <div class="">
+                    <a href="../customer-support/customer-support.html"
+                        class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
+                        <i class="fa-solid fa-headphones d-block"></i>
+                        <small>دعم العملاء</small>
+                    </a>
+
+                </div>
+
+                <div class="">
+                    <a href="../about-us/about-us.html"
+                        class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <small> من نحن</small>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-2  py-3 px-3 rounded-1 d-none d-lg-block" dir="ltr">
+                <i class="fa-solid fa-phone"></i>
+                <span>+1-202-555-0104</span>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+
+    <nav class="navbar navbar-expand-lg blue-bac d-md-none ">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="../images/logo/logo.png" alt=""></a>
+            </div>
+            <div class="bar_navbar title-text2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            href="../shop-section/shop_page.html">
+                            <i class="fa-solid fa-cart-arrow-down"></i>
+                            <small>المتجر </small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            href="../fqr/freguently.html">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <small>الاسألة المتكررة</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            aria-disabled="true" href="../blog-list/blog-list.html">
+                            <i class="fa-solid fa-blog"></i>
+                            <small> المقالات</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            aria-disabled="true" href="../customer-support/customer-support.html">
+                            <i class="fa-solid fa-headphones d-block"></i>
+                            <small>دعم العملاء</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            aria-disabled="true" href="../about-us/about-us.html">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <small> من نحن</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            aria-disabled="true" href="../sign-in/signin.html">
+                            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                            <small>تسجيل الدخول </small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            aria-disabled="true">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+1-202-555-0104</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- =====================================================
+       MAIN PRODUCT SECTION
+  ====================================================== -->
+    <div class="container my-4">
+        <div class="product-card">
+
+            <!-- Bootstrap Grid: col-12 on XS/SM, col-6 on MD, col-5/7 on LG -->
+            <div class="row g-0">
+
+                <!-- ── LEFT: Image Gallery ──────────────────────────── -->
+                <div class="col-12 col-md-5 col-lg-5 border-end-md">
+
+                    <!-- Main product image -->
+                    <div class="main-img-wrap" id="mainImgWrap">
+                        <img id="mainImg"
+                            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1671304673202"
+                            alt="MacBook Pro Space Gray" />
+                    </div>
+
+                </div>
+
+                <!-- ── RIGHT: Product Info ──────────────────────────── -->
+                <div class="col-12 col-md-7 col-lg-7">
+                    <div class="info-panel">
+
+                        <!-- Rating row -->
+                        <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <div class="star-rating" id="starDisplay">
+                                <!-- Stars rendered by JS -->
+                            </div>
+                            <span class="rating-count" id="ratingCount"></span>
+
+                        </div>
+
+                        <!-- Title -->
+                        <h1 class=" title-text1" id="productTitle">
+                            آبل ماك بوك برو مع شريحة M1 (13-inch, 2020, 8G RAM, 256SSD Storage) - رمادي فلكي
+                        </h1>
+
+                        <!-- SKU / Brand / Category -->
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="meta-badge"><i class="bi bi-tag"></i>SKU: A264671</span>
+                            <span class="meta-badge"><i class="bi bi-apple"></i>آبل</span>
+                            <span class="meta-badge"><i class="bi bi-laptop"></i>الكترونيات</span>
+                            <span class="meta-badge in-stock"><i class="bi bi-check-circle-fill"></i>متوفر</span>
+                        </div>
+
+                        <!-- Price block -->
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <span class="price-now" id="priceNow">$1,699</span>
+                            <span class="price-was" id="priceWas">$1,999</span>
+                            <span class="discount-badge" id="discountBadge">21% خصم</span>
+                        </div>
+
+                        <!-- ── Color Selector ─────────────────────────── -->
+                        <div class="mb-3">
+                            <div class="option-label">اللون — <span id="selectedColor">Space Gray</span></div>
+                            <div class="d-flex gap-2" id="colorSwatches">
+                                <!-- Swatches injected by JS -->
+                            </div>
+                        </div>
+
+                        <!-- ── Size Selector ──────────────────────────── -->
+                        <div class="mb-3">
+                            <div class="option-label">حجم الشاشة</div>
+                            <div class="d-flex flex-wrap gap-2" id="sizeChips">
+                                <!-- Chips injected by JS -->
+                            </div>
+                        </div>
+
+                        <!-- ── Memory Selector ────────────────────────── -->
+                        <div class="mb-3">
+                            <div class="option-label">الذاكرة العشوائية</div>
+                            <div class="d-flex flex-wrap gap-2" id="memoryChips">
+                                <!-- Chips injected by JS -->
+                            </div>
+                        </div>
+
+                        <!-- ── Storage Selector ───────────────────────── -->
+                        <div class="mb-4">
+                            <div class="option-label">التخزين</div>
+                            <div class="d-flex flex-wrap gap-2" id="storageChips">
+                                <!-- Chips injected by JS -->
+                            </div>
+                        </div>
+
+                        <!-- ── Quantity + Action Buttons ──────────────── -->
+                        <div class="d-flex align-items-center gap-3 flex-wrap mb-3">
+                            <!-- Quantity stepper -->
+                            <div class="qty-stepper">
+                                <button class="qty-btn" id="qtyMinus">−</button>
+                                <input class="qty-display" id="qtyDisplay" type="text" value="1" readonly />
+                                <button class="qty-btn" id="qtyPlus">+</button>
+                            </div>
+
+                            <!-- Add to cart -->
+                            <button class="btn-cart" id="addToCartBtn">
+                                <i class="bi bi-bag-plus"></i>اضافة للسلة
+                            </button>
+
+                            <!-- Buy now -->
+                            <button class="btn-buy" id="buyNowBtn">شراء الآن</button>
+                        </div>
+
+                        <!-- ── Wishlist / Compare / Share ─────────────── -->
+                        <div class="d-flex align-items-center flex-wrap gap-3 mb-4">
+                            <button class="action-link" id="wishlistBtn">
+                                <i class="bi bi-heart"></i> اضف للمفضلة
+                            </button>
+                            <button class="action-link" id="compareBtn">
+                                <i class="bi bi-arrow-left-right"></i> اضف للمقارنة
+                            </button>
+
+                            <!-- Share icons -->
+                            <div class="ms-auto d-flex gap-1">
+                                <span style="font-size:.78rem;color:var(--clr-muted);align-self:center;">مشاركة:</span>
+                                <button class="share-btn" title="Copy link"><i class="bi bi-link-45deg"></i></button>
+                                <button class="share-btn" title="Twitter"><i class="bi bi-twitter-x"></i></button>
+                                <button class="share-btn" title="Facebook"><i class="bi bi-facebook"></i></button>
+                                <button class="share-btn" title="Pinterest"><i class="bi bi-pinterest"></i></button>
+                            </div>
+                        </div>
+
+                        <!-- ── Trust / Guarantee Strip ────────────────── -->
+                        <div class="trust-strip rounded-3">
+                            <div class="trust-item"><i class="bi bi-shield-check"></i>ضمان 100%</div>
+                            <div class="trust-item"><i class="bi bi-credit-card"></i>دفع آمن</div>
+                            <div class="trust-item"><i class="bi bi-arrow-counterclockwise"></i>قابل للتغيير</div>
+                            <div class="trust-item"><i class="bi bi-truck"></i>شحن مجاني</div>
+                        </div>
+
+                    </div><!-- /info-panel -->
+                </div><!-- /col right -->
+            </div><!-- /row -->
+        </div><!-- /product-card -->
+
+
+
+
+
+
+
+
+
+        <!-- =====================================================
+         TABS SECTION: Description / Specs / Features / Shipping
+    ====================================================== -->
+        <div class="mt-4">
+            <!-- Tab Nav -->
+            <ul class="nav product-tabs bg-white rounded-top border-bottom border-light px-2" id="productTabs"
+                role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tabDesc"
+                        role="tab">الوصف</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabSpec"
+                        role="tab">المواصفات</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabFeat" role="tab">المميزات</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabShip" role="tab">الشحن</button>
+                </li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="tab-content tab-content-panel">
+
+                <!-- Description -->
+                <div class="tab-pane fade show active" id="tabDesc" role="tabpanel">
+                    <h5 class="fw-semibold mb-3   title-text2">حول ماك بوك M1 برو</h5>
+                    <p class="main-text" style="color:#374151;">
+                        أقوى ماك بوك برو من أي وقت مضى هو هنا. مع شريحة إم 1 برو أو إم 1 ماكس فائقة السرعة-أول سيليكون
+                        من أبل مصمم للمحترفين-ستحصل على أداء رائد وعمر بطارية مذهل. أضف إلى ذلك شاشة عرض شبكية العين
+                        السائلة المذهلة ، وأفضل كاميرا وصوت على الإطلاق في جهاز كمبيوتر محمول ماك ، وجميع المنافذ التي
+                        تحتاجها.
+                        أول دفتر من نوعه ، وهذا ماك بوك برو هو الوحش. إم 1 برو يأخذ الأداء الاستثنائي للهندسة المعمارية
+                        إم 1 إلى مستوى جديد تماما للمستخدمين المحترفين. حتى أكثر المشاريع طموحا يتم التعامل معها بسهولة
+                        مع ما يصل إلى 10 نوى لوحدة المعالجة المركزية ، وما يصل إلى 16 نواة لوحدة معالجة الرسومات ، ومحرك
+                        عصبي 16 نواة ، ومحركات وسائط ترميز وفك تشفير مخصصة تدعم برامج ترميز إتش 264 وإتش في سي وبروريس.
+                    </p>
+                    <p class="main-text" style="color:#374151; margin-top: 5px;">
+                        أول دفتر من نوعه ، وهذا ماك بوك برو هو الوحش. إم 1 برو يأخذ استثنائية
+                        أداء بنية إم 1 إلى مستوى جديد تماما للمستخدمين المحترفين. حتى الأكثر طموحا
+                        يتم التعامل مع المشاريع بسهولة مع ما يصل إلى 10 نوى لوحدة المعالجة المركزية ، وما يصل إلى 16
+                        نواة لوحدة معالجة الرسومات ، وعصبية ذات 16 نواة
+                        محركات الوسائط التي تدعم إتش 264 وإتش في سي وبروريس
+                        الترميز.
+                    </p>
+                </div>
+
+                <!-- Specifications -->
+                <div class="tab-pane fade" id="tabSpec" role="tabpanel">
+                    <h5 class="fw-semibold mb-3 title-text2">المواصفات الفنية</h5>
+                    <table class="table spec-table mb-0" style="border-radius:10px;overflow:hidden;">
+                        <tbody>
+                            <tr>
+                                <td class="spec-key">Chip</td>
+                                <td>Apple M1</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">CPU Cores</td>
+                                <td>8-core (4 performance + 4 efficiency)</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">GPU Cores</td>
+                                <td>8-core</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">Neural Engine</td>
+                                <td>16-core</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">RAM</td>
+                                <td>8GB / 16GB Unified Memory</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">Storage</td>
+                                <td>256GB / 512GB / 1TB / 2TB SSD</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">Display</td>
+                                <td>13.3-inch Retina, 2560 × 1600, 500 nits</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">Battery</td>
+                                <td>Up to 20 hours</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">Ports</td>
+                                <td>2× Thunderbolt / USB 4, 3.5mm headphone</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">Weight</td>
+                                <td>1.4 kg (3.0 lbs)</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">Color</td>
+                                <td>Space Gray, Silver</td>
+                            </tr>
+                            <tr>
+                                <td class="spec-key">OS</td>
+                                <td>macOS (upgradeable)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Features -->
+                <div class="tab-pane fade" id="tabFeat" role="tabpanel">
+                    <h5 class="fw-semibold mb-3 title-text2">الميزات الرئيسية</h5>
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6">
+                            <div class="feature-card">
+                                <div class="feature-icon"><i class="bi bi-shield-fill-check"></i></div>
+                                <div class="main-text">
+                                    <div class="feature-title">ضمان لمدة عام كامل</div>
+                                    <p style="color:var(--clr-muted);">ضمان كامل من الشركة المصنعة مع خدمة معتمدة</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="feature-card">
+                                <div class="feature-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                                <div class="main-text">
+                                    <div class="feature-title">دعم العملاء على مدار الساعة</div>
+                                    <p style="color:var(--clr-muted);">دعم عبر الدردشة المباشرة والبريد الإلكتروني
+                                        والهاتف على مدار الساعة</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="feature-card">
+                                <div class="feature-icon"><i class="bi bi-headset"></i></div>
+                                <div class="main-text">
+                                    <div class="feature-title">ضمان استرداد الامواد 100%</div>
+                                    <p style="color:var(--clr-muted);">استرداد كامل المبلغ خلال 30 يوما. بدون طرح اي
+                                        اسالة</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="feature-card">
+                                <div class="feature-icon"><i class="bi bi-lock-fill"></i></div>
+                                <div class="main-text">
+                                    <div class="feature-title">شحن مجاني وتوصيل سريع</div>
+                                    <p style="color:var(--clr-muted);">يتم التوصيل خلال 2 - 4 ايام بدون تكلفة اضافية</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="feature-card">
+                                <div class="feature-icon"><i class="bi bi-arrow-return-left"></i></div>
+                                <div class="main-text">
+                                    <div class="feature-title">دفع آمن</div>
+                                    <p style="color:var(--clr-muted);">عملية دفع مشفرة بتقنية SSL مع خيارات دفع متعددة
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="feature-card">
+                                <div class="feature-icon"><i class="bi bi-cpu-fill"></i></div>
+                                <div class="main-text">
+                                    <div class="feature-title">شريحة آبل M1</div>
+                                    <p style="color:var(--clr-muted);">اداء فائق مع معالج ثماني النواة ووحدة معالجة
+                                        رسوميات</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shipping -->
+                <div class="tab-pane fade " id="tabShip" role="tabpanel">
+                    <h5 class="fw-semibold mb-3 title-text2">خيارات الشحن</h5>
+                    <div class="shipping-row ">
+                        <i class="bi bi-rocket-takeoff-fill"></i>
+                        <div class="main-text">
+                            <div style="font-weight:600;">خدمة التوصيل السريع</div>
+                            <div class="mt-1" style="color:var(--clr-muted);">شحن مجاني 3 - 4 ايام</div>
+                        </div>
+                    </div>
+                    <div class="shipping-row ">
+                        <i class="bi bi-shop"></i>
+                        <div class="main-text">
+                            <div style="font-weight:600;">الشحن المحلي</div>
+                            <div class="mt-1" style="color:var(--clr-muted);">حتى اسبوع واحد - 19.00 دولار</div>
+                        </div>
+                    </div>
+                    <div class="shipping-row">
+                        <i class="bi bi-truck"></i>
+                        <div class="main-text">
+                            <div style="font-weight:600;">الشحن البري عبر UPS</div>
+                            <div class="mt-1" style="color:var(--clr-muted);">4 - 6 ايام - 29.00 دولار</div>
+                        </div>
+                    </div>
+                    <div class="shipping-row">
+                        <i class="bi bi-globe2"></i>
+                        <div class="main-text">
+                            <div style="font-weight:600;">التصدير العالمي مع UniShip</div>
+                            <div class="mt-1" style="color:var(--clr-muted);">3 - 4 ايام - 39.00 دولار</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /tab-content -->
+        </div><!-- /tabs wrapper -->
+    </div><!-- /container -->
+
+    <!-- =====================================================
+       TOAST CONTAINER (fixed bottom-right)
+  ====================================================== -->
+    <div class="toast-wrap" id="toastWrap"></div>
+
+
+    <!-- start about-products-section-->
+
+
+    <section class="products-section white-bac py-5">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-category">
+                        <h3 class="category-title title-text2 mb-4">عروض اليوم</h3>
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <a href="" class="position-absolute w-100 h-100"> </a>
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/a51.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text">سامسونغ A51 </h4>
+                                <p class="  text-number orange-text">$120.00</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <a href="" class="position-absolute w-100 h-100"> </a>
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/camera.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text"> كاميرة احترافية</h4>
+                                <p class="  text-number orange-text">$899.00</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <a href="" class="position-absolute w-100 h-100"> </a>
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/dron.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text">طائرة درون </h4>
+                                <p class="  text-number orange-text">$30.00</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-category">
+                        <h3 class="category-title title-text2 mb-4">الأكثر مبيعاً</h3>
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <a href="" class="position-absolute w-100 h-100"> </a>
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/headphone1.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text"> سماعة محيطية</h4>
+                                <p class="  text-number orange-text">$28.00</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <a href="" class="position-absolute w-100 h-100"> </a>
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/iphone11.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text">آيفون 11 برو </h4>
+                                <p class="  text-number orange-text">$260.00</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <a href="" class="position-absolute w-100 h-100"> </a>
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/keybaord.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text">كيبورد احترافي </h4>
+                                <p class="  text-number orange-text">$85.0</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-category">
+                        <h3 class="category-title title-text2 mb-4">الأعلى تقييماً</h3>
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/mackbook.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text">ماك بوك برو</h4>
+                                <p class="  text-number orange-text">$1500.00</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <a href="" class="position-absolute w-100 h-100"> </a>
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/note14pro.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text">نوت 14 برو </h4>
+                                <p class="  text-number orange-text">$220.00</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <a href="" class="position-absolute w-100 h-100"> </a>
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/printermachine.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text">آلة طباعة </h4>
+                                <p class="  text-number orange-text">$349.00</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-category">
+                        <h3 class="category-title title-text2 mb-4">وصل حديثاً</h3>
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/s21-5g.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text"> سامسونغ s21 </h4>
+                                <p class="  text-number orange-text">$299.00</p>
+                            </div>
+                        </div>
+
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <a href="" class="position-absolute w-100 h-100"> </a>
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/screeng9.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text"> شاشة لف</h4>
+                                <p class="  text-number orange-text">$699.00</p>
+                            </div>
+                        </div>
+
+
+                        <div class="product-item position-relative overflow-hidden">
+                            <a href="" class="position-absolute w-100 h-100"> </a>
+                            <div class="product-img-wrapper">
+                                <img src="../images/shop filter/tvscreen.png" alt="منتج" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <h4 class="text-black main-text blue-text">شاشة تلفزيون</h4>
+                                <p class="   text-number orange-text">$129.00</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- end about-products-section -->
+
+
+
+    <footer class="black-bac">
+        <div class="container ">
+            <div class="row text-white py-5 main-text ">
+                <div class="col-12 col-md-6 col-lg  ">
+                    <div class="logo footer_logo">
+                        <a href=""><img src="../images/logo/logo.png" alt=""></a>
+                    </div>
+                    <div class="gray-text d-flex flex-column gap-2 mt-2">
+                        <span>دعم العملاء</span>
+                        <span class="text-white">(629) 555-0129</span>
+                        <span>4517 شارع واشنطن, مدينة مانشستر,<br>ولاية كنتاكي, الولايات المتحدة 39495</span>
+                        <span class=""><a href="" class="text-white">info@gmail.com</a></span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg    d-flex flex-column gap-2 mt-4 mt-md-2 mt-lg-0">
+                    <p class="title-text2 text-white">افضل الفئات</p>
+                    <span class="mt-2"><a href="" class="gray-text link_footer">كمبيوترات</a></span>
+                    <span><a href="" class="gray-text link_footer">هاتف ذكي</a></span>
+                    <span><a href="" class="gray-text link_footer">سماعة راس</a></span>
+                    <p class=" my-2 yellow-text">اكسسوارات</p>
+                    <span><a href="" class="gray-text link_footer">كاميرة وتصوير</a></span>
+                    <span><a href="" class="gray-text link_footer">تلفزيون منزلي</a></span>
+                    <span class=""><a href="" class="d-flex align-items-center gap-2 yellow-text">تصفح جميع المنتجات<i
+                                class="fa-solid fa-arrow-left"></i></a></i>
+                    </span>
+                </div>
+                <div class="col-12 col-md-6 col-lg   d-flex flex-column gap-2 mt-4 mt-md-3 mt-lg-0">
+                    <p class="title-text2 text-white">روابط سريعة</p>
+                    <span class="mt-2"><a href="../shop-section/shop_page.html" class="gray-text link_footer">
+                            المتجر</a></span>
+                    <span><a href="../fqr/freguently.html" class="gray-text link_footer"> الاسالة المتكررة</a></span>
+                    <span><a href="" class="gray-text link_footer">المفضلة</a></span>
+                    <span><a href="" class="gray-text link_footer">مقارنة</a></span>
+                    <span><a href="" class="gray-text link_footer">تتبع الطلب</a></span>
+                    <span><a href="../customer-support/customer-support.html" class="gray-text link_footer">دعم
+                            العملاء</a></span>
+                    <span><a href="../about-us/about-us.html" class="gray-text link_footer">من نحن</a></span>
+                </div>
+                <div class="col-12 col-md-6 col-lg   mt-4 mt-md-3 mt-lg-0">
+                    <p class="title-text2">حمل التطبيق من </p>
+                    <div class="d-flex gap-3 align-items-center mt-4 p-2 rounded-1 app_google_store">
+                        <a href=""></a>
+                        <i class="fa-brands fa-google-play "></i>
+                        <p class="">احصل عليه الان <br><span>Google Play</span></p>
+                    </div>
+                    <div class="d-flex gap-3 align-items-center mt-4 p-2 rounded-1 app_google_store">
+                        <a href=""></a>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <p class="">احصل عليه الان <br><span>App Store </span></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg   gray-text mt-4 mt-md-3 mt-lg-0">
+                    <p class="title-text2 text-white">الاكثر بحثا</p>
+                    <div class="d-flex flex-wrap mt-4 gap-3">
+                        <a class="d-block  gray-text search_footer" href="">لعبة</a>
+                        <a class="d-block  gray-text search_footer" href="">ايفون</a>
+                        <a class="d-block  gray-text search_footer" href="">لابتوب اسوس</a>
+                        <a class="d-block  gray-text search_footer" href="">ماكبوك</a>
+                        <a class="d-block  gray-text search_footer" href="">شاشة</a>
+                        <a class="d-block  gray-text search_footer" href="">سامسونغ</a>
+                        <a class="d-block  gray-text search_footer" href="">جهاز لوحي</a>
+                        <a class="d-block  gray-text search_footer" href="">مكريفون</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gray-text text-center border-top py-3">
+            قالب روكفلر © 2026 بواسطة ركفلر
+        </div>
+    </footer>
+
+
+    <!-- =====================================================
+       Bootstrap 5 JS Bundle (includes Popper)
+  ====================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="product-details.js"></script>
+    <script src="../nav-footer/nav-footer.js"></script>
+</body>
+
+</html>

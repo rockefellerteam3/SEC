@@ -1,0 +1,96 @@
+.sign_in_up {
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.269);
+    width: fit-content;
+    width: 350px;
+}
+
+.sign_in_up .taps .line {
+    width: 59px;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    height: 3px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.sign_in_up .taps .tap_btn {
+    color: #5F6C72;
+    transition: 0.3s;
+}
+
+.sign_in_up .taps .tap_btn:hover {
+    cursor: pointer;
+}
+
+.sign_in_up .taps .tap_btn.active {
+    color: black;
+}
+
+.taps_content .content {
+    padding: 10px;
+    display: none;
+}
+
+.taps_content .content.active {
+    display: block;
+}
+
+.forgot-link {
+    text-decoration: none;
+    color: #5dade2;
+    font-size: 0.9rem;
+}
+
+/* لون الزر البرتقالي */
+.btn-orange {
+    background-color: #ff8533;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-orange:hover {
+    background-color: #e6762d;
+    color: white;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #888;
+    margin: 20px 0;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.separator:not(:empty)::before {
+    margin-right: .5em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: .5em;
+}
+
+.btn-outline-orange {
+    border: 1px solid #ffccb3;
+    color: #d35400;
+    padding: 10px;
+    background: transparent;
+}
+
+.btn-outline-orange:hover {
+    background-color: #fff5f0;
+    color: #d35400;
+}

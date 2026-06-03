@@ -1,0 +1,150 @@
+.fast_link a {
+    color: black;
+    transition: 0.3s;
+}
+
+.fast_link a:hover,
+.fast_link a.active {
+    color: #2DA5F3;
+}
+
+/* ضبط الصور */
+.card img {
+    height: 180px;
+    object-fit: contain;
+}
+
+.cart_hover_btn {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card:hover .cart_hover_btn {
+    opacity: 1;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.269);
+}
+
+.cart_hover_btn i {
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.552);
+}
+
+.cart_hover_btn i:hover {
+    background-color: black;
+}
+
+.filter-sidebar {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.filter-section {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 0;
+}
+
+.filter-section:first-child {
+    padding-top: 0;
+}
+
+.filter-section:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Radio & Checkbox */
+.form-check {
+    margin-bottom: 4px;
+}
+
+.form-check-input {
+    float: right;
+    margin-right: -1.5rem;
+    margin-left: 0;
+    accent-color: #FA8232;
+    cursor: pointer;
+}
+
+.form-label {
+    transition: 0.3s;
+}
+
+.form-label:hover {
+    color: #FA8232;
+}
+
+.form-check-input:checked+.main-text {
+    color: #FA8232;
+    font-weight: 500;
+}
+
+/* Price Inputs */
+.price-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.price-input {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 13px;
+    font-family: 'Cairo', sans-serif;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.price-input::placeholder {
+    color: #bbb;
+}
+
+.price-input:focus {
+    border-color: #FA8232;
+}
+
+/* Tags */
+.tags-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag-btn {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #444;
+    background: #fff;
+    font-family: 'Cairo', sans-serif;
+    transition: all 0.15s;
+}
+
+.tag-btn:hover {
+    border-color: #FA8232;
+    color: #FA8232;
+}
+
+.tag-btn.active {
+    background: #FA8232;
+    border-color: #FA8232;
+    color: #fff;
+}
+
+.search-filter::placeholder {
+    @media (max-width: 992px) {
+        font-size: 14px;
+    }
+}

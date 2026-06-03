@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* الخطوط  */
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* خط العناوين الرئيسية  */
+
+.title-text1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+
+    @media (min-width: 768px) {
+        font-size: 24px;
+    }
+
+    @media (min-width: 992px) {
+        font-size: 30px;
+    }
+}
+
+
+/* خط العناوين الفرعية  */
+
+.title-text2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+
+    @media (min-width: 992px) {
+        font-size: 22px;
+    }
+}
+
+
+/* الخط الرئيسي لباقي الموقع  */
+
+.main-text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+
+    @media (min-width: 768px) {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    @media (min-width: 992px) {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+/* الخط الخاص بالارقام والاحصائيات  */
+
+.text-number {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+
+/* الخط الخاص بالازرار  */
+
+.text-btn {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+/* الالوان  */
+
+
+
+/* لون الخلفية الابيض  */
+
+.white-bac {
+    background-color: #FFFFFF;
+}
+
+/* لون الخلفية الرمادي  */
+
+.gray-bac {
+    background-color: #F2F4F5;
+}
+
+/* لون الخلفية الازرق  */
+
+.blue-bac {
+    background-color: #1B6392;
+}
+
+/* لون الخلفية الاسود  */
+
+.black-bac {
+    background-color: #191C1F;
+}
+
+/* لون الخلفية النصف برتقالي  */
+
+.half-orange-bac {
+    background-color: #FFF3EB;
+}
+
+/* الازرار البرتقالية  */
+
+.orange-btn {
+    color: white;
+    background-color: #FA8232;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+/* الازرار الزرقاء  */
+
+.blue-btn {
+    color: white;
+    background-color: #2DA5F3;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+/* الازرار الخضر  */
+
+.green-btn {
+    color: white;
+    background-color: #2DB224;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+/* الازرار الصفراء  */
+
+.yellow-btn {
+    color: black;
+    background-color: #EFD33D;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+/* الازرار الحمراء  */
+
+.red-brn {
+    color: white;
+    background-color: #EE5858;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+/* النص الازرق  */
+
+.blue-text {
+    color: #2DA5F3;
+}
+
+/* النص الرمادي  */
+
+.gray-text {
+    color: #5F6C72;
+}
+
+/* النص الاخضر  */
+
+.green-text {
+    color: #2DB224;
+}
+
+/* النص الاصفر  */
+
+.yellow-text {
+    color: #EBC80C;
+}
+
+/* النص البرتقالي */
+
+.orange-text {
+    color: #FA8232;
+}
+
+/* النص الاحمر  */
+
+.red-text {
+    color: #EE5858;
+}
+
+/* لون النجوم  */
+
+.star-color {
+    color: #FA8232;
+}
+
+/* باقي الوان النصوص لون اسود عادي black  */
