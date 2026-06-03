@@ -19,7 +19,6 @@
 <body>
 
 
-
     <header class="blue-bac">
 
 
@@ -81,7 +80,7 @@
         <div class="bottom-header pt-2 pb-2 border-top border-1 d-none d-md-block">
             <div class="container d-flex justify-content-between">
                 <div class="logo">
-                    <a href="#"><img src="../images/logo/logo.png" alt=""></a>
+                    <a href="../index.html"><img src="../images/logo/logo.png" alt=""></a>
                 </div>
                 <div class="header-search position-relative rounded-2 overflow-hidden d-none d-md-block">
                     <input type="text" class="w-100 h-100 border-0 ps-2 pe-5" placeholder="بحث...">
@@ -153,7 +152,8 @@
                                 <div class="mb-3">
                                     <div class="d-flex justify-content-between">
                                         <label for="password" class="main-text">كلمة المرور</label>
-                                        <a href="#" class="forgot-link">هل نسيت كلمة السر؟</a>
+                                        <a href="../forget-password/forget-password.html" class="forgot-link">هل نسيت
+                                            كلمة السر؟</a>
                                     </div>
                                     <div class="position-relative mt-1">
                                         <input id="password" type="password" class="form-control p-2 pe-5"
@@ -172,7 +172,7 @@
 
                             <button class="btn btn-outline-orange w-100 text-btn"
                                 style="letter-spacing: 1px; font-weight: 600;">
-                                انشاء حساب
+                                <a href="../sign-in/signin.html" style="color: #FA8232;"> انشاء حساب</a>
                             </button>
                         </div>
                     </div>
@@ -212,24 +212,33 @@
                 </div>
 
                 <div class="">
-                    <a href="#"
+                    <a href="../shop-section/shop_page.html"
                         class="d-flex align-items-center gap-1 gray-text text-center nav_link  py-3 px-3 rounded-1">
-                        <i class="fa-solid fa-location-dot d-block"></i>
-                        <small>تتبع الطلب</small>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        <small>المتجر </small>
                     </a>
                 </div>
 
                 <div class="">
-                    <a href="#"
+                    <a href="../fqr/freguently.html"
                         class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
-                        <i class="fa-solid fa-repeat d-block"></i>
-                        <small>مقارنة</small>
+                        <i class="fa-solid fa-circle-question"></i>
+                        <small>الاسألة المتكررة</small>
                     </a>
 
                 </div>
 
                 <div class="">
-                    <a href="#"
+                    <a href="../blog-list/blog-list.html"
+                        class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
+                        <i class="fa-solid fa-blog"></i>
+                        <small> المقالات</small>
+                    </a>
+
+                </div>
+
+                <div class="">
+                    <a href="../customer-support/customer-support.html"
                         class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
                         <i class="fa-solid fa-headphones d-block"></i>
                         <small>دعم العملاء</small>
@@ -238,10 +247,10 @@
                 </div>
 
                 <div class="">
-                    <a href="#"
+                    <a href="../about-us/about-us.html"
                         class="text-center nav_link d-flex align-items-center gap-1 gray-text py-3 px-2 rounded-1">
-                        <i class="fa-regular fa-circle-question d-block"></i>
-                        <small>بحاجة مساعدة</small>
+                        <i class="fa-solid fa-circle-info"></i>
+                        <small> من نحن</small>
                     </a>
 
                 </div>
@@ -270,57 +279,45 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="" class="d-flex text-white title-text2 nav_item_bar">
-                            <span>جميع الفئات</span>
+                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
+                            href="../shop-section/shop_page.html">
+                            <i class="fa-solid fa-cart-arrow-down"></i>
+                            <small>المتجر </small>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
-                            href="#">
-                            <i class="fa-solid fa-location-dot d-block"></i>
-                            <small>تتبع الطلب</small>
+                            href="../fqr/freguently.html">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <small>الاسألة المتكررة</small>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
-                            href="#">
-                            <i class="fa-solid fa-repeat d-block"></i>
-                            <small>مقارنة</small>
+                            aria-disabled="true" href="../blog-list/blog-list.html">
+                            <i class="fa-solid fa-blog"></i>
+                            <small> المقالات</small>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
-                            aria-disabled="true">
+                            aria-disabled="true" href="../customer-support/customer-support.html">
                             <i class="fa-solid fa-headphones d-block"></i>
                             <small>دعم العملاء</small>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
-                            aria-disabled="true">
-                            <i class="fa-regular fa-circle-question d-block"></i>
-                            <small>بحاجة مساعدة</small>
+                            aria-disabled="true" href="../about-us/about-us.html">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <small> من نحن</small>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
-                            aria-disabled="true">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <small> سلة التسوق</small>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
-                            aria-disabled="true">
+                            aria-disabled="true" href="../sign-in/signin.html">
                             <i class="fa-solid fa-arrow-right-to-bracket"></i>
                             <small>تسجيل الدخول </small>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center gap-1 text-white title-text2 nav_item_bar"
-                            aria-disabled="true">
-                            <i class="fa-solid fa-heart"></i>
-                            <small> المفضلة</small>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -1718,7 +1715,7 @@
                             تراي فولد) خطوة من سامسونغ لترسيخ موطئ قدم لها في فئة تحقق فيها الشركات الصينية تقدما كبيرا،
                             رغم أن محللين يقولون إن الأجهزة القابلة للطي لن تحقق...
                         </p>
-                        <a href="#" class="btn btn-primary text-uppercase fw-bold px-4 py-2 mt-auto"
+                        <a href="blog-details/blog-detail.html" class="btn btn-primary text-uppercase fw-bold px-4 py-2 mt-auto"
                             style="border-color: #2DA5F3; color: white !important;">
                             اقرأ المزيد <i class="fa-solid fas fa-arrow-right me-2"></i>
                         </a>
@@ -1746,7 +1743,7 @@
                             حصل هاتف Realme Neo8 على كاميرا أساسية ثلاثية العدسة بدقة 50+50+8 ميجابيكسل، فيها عدسة
                             ultrawide وعدسة periscope telephoto، لها القدرة على توثيق فيديوهات 4K...
                         </p>
-                        <a href="#" class="btn btn-primary text-uppercase fw-bold px-4 py-2 mt-auto"
+                        <a href="blog-details/blog-detail.html" class="btn btn-primary text-uppercase fw-bold px-4 py-2 mt-auto"
                             style="border-color: #2DA5F3; color: white !important;">
                             اقرأ المزيد <i class="fa-solid fas fa-arrow-right me-2"></i>
                         </a>
@@ -1773,7 +1770,7 @@
                             القديمة، وذلك لفترة زمنية محدودة حتى 31 يوليو 2022. وسيتمكن محبو سامسونج في الدولة، توفير ما
                             يصل....
                         </p>
-                        <a href="#" class="btn btn-primary text-uppercase fw-bold px-4 py-2 mt-auto"
+                        <a href="blog-details/blog-detail.html" class="btn btn-primary text-uppercase fw-bold px-4 py-2 mt-auto"
                             style="border-color: #2DA5F3; color: white !important;">
                             اقرأ المزيد <i class="fa-solid fas fa-arrow-right me-2"></i>
                         </a>
@@ -1900,7 +1897,9 @@
                                         value="1">
                                     <button class="btn btn-link text-dark text-decoration-none">+</button>
                                 </div>
-                                <button class="btn btn-warning flex-grow-1 fw-bold py-2"><a href="product-details/product-details.html" style="color: white;">المزيد من التفاصيل</a>  </button>
+                                <button class="btn btn-warning flex-grow-1 fw-bold py-2"><a
+                                        href="product-details/product-details.html" style="color: white;">المزيد من
+                                        التفاصيل</a> </button>
                             </div>
 
                             <button class="btn blue-btn w-100 fw-bold py-2">شراء الآن</button>
@@ -1911,7 +1910,6 @@
             </div>
         </div>
     </div>
-
 
 
 
@@ -1943,13 +1941,15 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg   d-flex flex-column gap-2 mt-4 mt-md-3 mt-lg-0">
                     <p class="title-text2 text-white">روابط سريعة</p>
-                    <span class="mt-2"><a href="" class="gray-text link_footer">تسوق المنتج</a></span>
-                    <span><a href="" class="gray-text link_footer">سلة التسوق</a></span>
+                    <span class="mt-2"><a href="../shop-section/shop_page.html" class="gray-text link_footer">
+                            المتجر</a></span>
+                    <span><a href="../fqr/freguently.html" class="gray-text link_footer"> الاسالة المتكررة</a></span>
                     <span><a href="" class="gray-text link_footer">المفضلة</a></span>
                     <span><a href="" class="gray-text link_footer">مقارنة</a></span>
                     <span><a href="" class="gray-text link_footer">تتبع الطلب</a></span>
-                    <span><a href="" class="gray-text link_footer">دعم العملاء</a></span>
-                    <span><a href="" class="gray-text link_footer">من نحن</a></span>
+                    <span><a href="../customer-support/customer-support.html" class="gray-text link_footer">دعم
+                            العملاء</a></span>
+                    <span><a href="../about-us/about-us.html" class="gray-text link_footer">من نحن</a></span>
                 </div>
                 <div class="col-12 col-md-6 col-lg   mt-4 mt-md-3 mt-lg-0">
                     <p class="title-text2">حمل التطبيق من </p>
